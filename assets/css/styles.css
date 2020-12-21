@@ -225,6 +225,13 @@ img{
   height: 350px;
    border-radius: 20px;
 }
+
+@media screen and (max-width: 768px){
+  .home__img img{
+  height: 50px;
+   border-radius: 20px;
+}
+}
 /*BUTTONS*/
 .button{
   display: inline-block;
